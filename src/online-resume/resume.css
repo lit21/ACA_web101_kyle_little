@@ -1,0 +1,46 @@
+body {
+  font-family: 'Raleway', sans-serif;
+background-image: url(Jordanwallpaper2.jpg);
+background-repeat: no-repeat;
+background-size: 150%;
+
+}
+header {
+  font-size: 48;
+  color: red;
+  text-align: center;
+}
+
+div {
+  color: red;
+}
+
+div p {
+  display: inline-block;
+  width: 50%;
+  color: red;
+  font-size: 18;
+}
+
+h1, h2, h3 {
+  margin-right: 50%;
+  color: red;
+  font-size: 32;
+}
+
+img {
+  width: 25%;
+    margin-right: 20px;
+}
+
+h1 div {
+  font-size: 18;
+}
+
+h2 div {
+  font-size: 18;
+}
+
+h3 div {
+  font-size: 18;
+}
