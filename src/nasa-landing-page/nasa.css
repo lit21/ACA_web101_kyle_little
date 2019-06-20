@@ -1,0 +1,32 @@
+body {
+  width: 850px;
+  margin: 0 auto;
+}
+main {
+  background-image: url(/src/nasa-landing-page/nasa4.jpg);
+  color: white;
+  margin: 0 auto;
+  height: 450;
+  font-size: 64;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  background-size: 100%;
+  
+}
+section {
+  display: flex;
+  margin: 5 auto;
+  height: 324px;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+article {
+  width: 270;
+  height: 374px;
+  background-color: rgb(222, 222, 222);
+  text-align: center;
+}
+
+h1 {
+  padding-top: 85px;
+}
