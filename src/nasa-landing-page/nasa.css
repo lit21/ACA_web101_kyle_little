@@ -30,3 +30,12 @@ article {
 h1 {
   padding-top: 85px;
 }
+form {
+  padding-top: 30px;
+}
+input {
+  padding-top: 15px;
+}
+p {
+  padding-top: 20px;
+}
