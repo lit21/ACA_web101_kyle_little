@@ -1,0 +1,83 @@
+.container {
+  border: red solid 2px;
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header save"
+    "coupon-spread coupon-spread clips"
+    "bottom-left bottom-right bottom-right";
+}
+.header {
+  border: green solid 2px;
+  grid-area: header;
+
+}
+.save {
+  border: blue solid 2px;
+  grid-area: save;
+  display: flex;
+  flex-direction: column;
+}
+.top-save{
+  border: black solid 2px;
+  height: 50%;
+}
+.bottom-save {
+  border: teal solid 2px;
+  height: 50%;
+}
+.coupon-spread {
+  border: orange solid 2px;
+  grid-area: coupon-spread;
+  grid-template-areas: 
+    "fruit from chips"
+    "tea nuts chobani chocs";
+  display: grid;
+
+}
+.top-cs {
+  border: 2px solid fuchsia;
+  
+}
+.bottom-cs {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fruit {
+  grid-area: fruit;
+}
+.from {
+  grid-area: from;
+  border: brown solid 2px;
+}
+.chips {
+  grid-area: chips;
+}
+.tea {
+  grid-area: tea;
+}
+.nuts {
+  grid-area: nuts;
+}
+.chobani {
+  grid-area: chobani;
+}
+.chocs {
+  grid-area: chocs;
+}
+.clips {
+  border: yellow solid 2px;
+  grid-area: clips;
+}
+.bottom-left {
+  border: pink solid 2px;
+  grid-area: bottom-left;
+}
+.bottom-right {
+  border: gray solid 2px;
+  grid-area: bottom-right;
+}
+img {
+  width: 25px;
+}
